@@ -1,5 +1,29 @@
 # [ Space Commander]
 
+## Modify
+
+Thx for the project  [square/spacecommander](https://github.com/square/spacecommander)
+
+1. Add rules for Objective-C
+2. Auto fix rather than manual copy command from commit log 
+
+```xml
+// disable if and while statements on single line
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false 
+AllowShortFunctionsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+// all arguments in one line or every argument in one line
+BinPackArguments: false
+BinPackParameters: false
+
+// fix '{' postion for function and Objective-C declaration
+AfterFunction: false
+AfterObjCDeclaration: false
+
+```
+
 **[ Space Commander]** provides tools which enable a team of iOS developers to commit Objective-C code to a git repository using a unified style format, without requiring any manual fixup.
 
 ![Corgi image](banner.jpg)
